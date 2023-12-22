@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: #101010;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-assets{
+    display: grid;
+    place-items: center;
+    gap: 1em;
+}
+
+.container-assets i{
+    font-size: 3em;
+}
+
+.container-assets p{
+    color: white;
+    font-family: 'Kanit';
+    font-size: 1.3em;
+    font-weight: 100;
+    text-align: center;
+}
+
+.container-assets button{
+    background: transparent;
+    border: solid white 0.15em;
+    border-radius: 2em;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+}
+
+.container-assets button a{
+    color: white;
+    font-family: 'Kanit';
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-assets button:hover{
+    border-color: gold;
+    transition: .3s;
+}
+
+.container-assets button a:hover{
+    color: gold;
+    transition: .3s;
+}
